@@ -1,13 +1,12 @@
 public class Exercicio04 { 
 
     public static int[] contarParesImpares(int[] numeros) {
-        int[] resultado = new int[2]; // [0] pares, [1] ímpares
-
+        int[] resultado = new int[5]; 
         for (int i = 0; i < numeros.length; i++) {
             if (numeros[i] % 2 == 0) {
-                resultado[0]++; // soma nos pares
+                resultado[0]++; 
             } else {
-                resultado[1]++; // soma nos ímpares
+                resultado[1]++; 
             }
         }
 
