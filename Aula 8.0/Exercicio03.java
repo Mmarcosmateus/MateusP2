@@ -1,15 +1,15 @@
 public class Exercicio03{ 
 
-    // método que verifica se a string existe no array
+   
     public static boolean elementoExiste(String[] lista, String busca) {
 
         for (int i = 0; i < lista.length; i++) {
             if (lista[i].equals(busca)) {
-                return true; // achou
+                return true;
             }
         }
 
-        return false; // não achou
+        return false; 
     }
 
     public static void main(String[] args) {
