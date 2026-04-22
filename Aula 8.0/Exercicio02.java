@@ -1,12 +1,12 @@
 public class Exercicio02 {
 
-    // método que encontra o maior valor do array
+   
     public static int encontrarMaior(int[] numeros) {
-        int maior = numeros[0]; // começa assumindo que o primeiro é o maior
+        int maior = numeros[0];
 
         for (int i = 0; i < numeros.length; i++) {
             if (numeros[i] > maior) {
-                maior = numeros[i]; // atualiza se encontrar maior
+                maior = numeros[i]; 
             }
         }
 
